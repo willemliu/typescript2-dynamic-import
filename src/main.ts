@@ -1,5 +1,3 @@
-import {MyModule} from './module';
-
 async function loadModule(module: string) {
     return await import(module);
 }
